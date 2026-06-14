@@ -1,0 +1,58 @@
+[
+  {
+    "id": "EXP001",
+    "description": "Team lunch at The Grill House restaurant with clients",
+    "amount": 125.50,
+    "date": "2026-06-10",
+    "employee": "John Smith"
+  },
+  {
+    "id": "EXP002",
+    "description": "Flight ticket SFO to NYC for client meeting",
+    "amount": 450.00,
+    "date": "2026-06-08",
+    "employee": "Sarah Johnson"
+  },
+  {
+    "id": "EXP003",
+    "description": "Personal laptop charger",
+    "amount": 89.99,
+    "date": "2026-06-09",
+    "employee": "Mike Chen"
+  },
+  {
+    "id": "EXP004",
+    "description": "Hilton Hotel 3 nights during NYC trip",
+    "amount": 850.00,
+    "date": "2026-06-08",
+    "employee": "Sarah Johnson"
+  },
+  {
+    "id": "EXP005",
+    "description": "Annual software subscription renewal - Slack Pro",
+    "amount": 150.00,
+    "date": "2026-06-05",
+    "employee": "Admin"
+  },
+  {
+    "id": "EXP006",
+    "description": "Office supplies - pens, notepads, folders",
+    "amount": 45.23,
+    "date": "2026-06-04",
+    "employee": "Emma Davis"
+  },
+  {
+    "id": "EXP007",
+    "description": "Weekend trip to Vegas with friends",
+    "amount": 1200.00,
+    "date": "2026-06-02",
+    "employee": "James Wilson"
+  },
+  {
+    "id": "EXP008",
+    "description": "Professional training course - Advanced Python",
+    "amount": 599.00,
+    "date": "2026-05-28",
+    "employee": "Alex Kumar"
+  }
+]

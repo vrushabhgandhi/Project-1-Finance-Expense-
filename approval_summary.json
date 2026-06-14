@@ -1,0 +1,112 @@
+{
+  "total_expenses": 8,
+  "total_amount": 3509.7200000000003,
+  "approved_auto": 2,
+  "flagged_for_review": 6,
+  "expenses": [
+    {
+      "expense_id": "EXP001",
+      "description": "Team lunch at The Grill House restaurant with clients",
+      "amount": 125.5,
+      "category": "Meals & Entertainment",
+      "approved": true,
+      "confidence": 0.85,
+      "reasoning": "This expense is for a business meal with clients, so it falls under 'Meals & Entertainment'. It is a legitimate business expense, but it does not clearly specify the nature of the business discussion or meeting during the meal.",
+      "risk_flags": [
+        "unusual description",
+        "personal item mentioned (lunch)"
+      ],
+      "requires_manual_review": true
+    },
+    {
+      "expense_id": "EXP002",
+      "description": "Flight ticket SFO to NYC for client meeting",
+      "amount": 450.0,
+      "category": "Travel - Flights",
+      "approved": true,
+      "confidence": 0.85,
+      "reasoning": "The expense description includes a flight ticket, which falls under the Travel - Flights category.",
+      "risk_flags": [
+        "personal items"
+      ],
+      "requires_manual_review": true
+    },
+    {
+      "expense_id": "EXP003",
+      "description": "Personal laptop charger",
+      "amount": 89.99,
+      "category": "Other",
+      "approved": true,
+      "confidence": 0.85,
+      "reasoning": "The expense for a personal laptop charger is not directly related to work or business activities, but it might be used for work purposes outside of the office.",
+      "risk_flags": [
+        "unusual description",
+        "personal item"
+      ],
+      "requires_manual_review": true
+    },
+    {
+      "expense_id": "EXP004",
+      "description": "Hilton Hotel 3 nights during NYC trip",
+      "amount": 850.0,
+      "category": "Travel - Hotels",
+      "approved": false,
+      "confidence": 0.85,
+      "reasoning": "The claim describes 3 nights at the Hilton Hotel during a NYC trip, which falls under the hotels category.",
+      "risk_flags": [
+        "suspicious pattern as the amount is higher than typical hotel stays for 3 nights",
+        "Amount exceeds Travel - Hotels limit of $300"
+      ],
+      "requires_manual_review": true
+    },
+    {
+      "expense_id": "EXP005",
+      "description": "Annual software subscription renewal - Slack Pro",
+      "amount": 150.0,
+      "category": "Software & Subscriptions",
+      "approved": true,
+      "confidence": 0.95,
+      "reasoning": "Annual software subscription renewal is a standard business expense, which requires regular funding to maintain productivity and team collaboration through Slack Pro.",
+      "risk_flags": [],
+      "requires_manual_review": false
+    },
+    {
+      "expense_id": "EXP006",
+      "description": "Office supplies - pens, notepads, folders",
+      "amount": 45.23,
+      "category": "Office Supplies",
+      "approved": true,
+      "confidence": 0.95,
+      "reasoning": "The expense is for office supplies which matches the category. The description of the items included is specific and not vague.",
+      "risk_flags": [],
+      "requires_manual_review": false
+    },
+    {
+      "expense_id": "EXP007",
+      "description": "Weekend trip to Vegas with friends",
+      "amount": 1200.0,
+      "category": "Other",
+      "approved": true,
+      "confidence": 0.85,
+      "reasoning": "The expense description 'Weekend trip to Vegas with friends' is too vague to be classified under specific travel categories like Flights, Hotels, or Ground Transportation. Therefore, it is categorized under 'Other' for further evaluation.",
+      "risk_flags": [
+        "vague details",
+        "personal items"
+      ],
+      "requires_manual_review": true
+    },
+    {
+      "expense_id": "EXP008",
+      "description": "Professional training course - Advanced Python",
+      "amount": 599.0,
+      "category": "Training & Development",
+      "approved": true,
+      "confidence": 0.85,
+      "reasoning": "The description of the expense suggests a professional development activity, which falls under the Training & Development category. The course is specified as Advance Python, indicating a technical skill-building purpose.",
+      "risk_flags": [
+        "vague details due to limited information"
+      ],
+      "requires_manual_review": true
+    }
+  ]
+}
